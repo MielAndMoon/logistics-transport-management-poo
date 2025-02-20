@@ -85,8 +85,31 @@ El sistema está dividido en **cuatro módulos principales**, cada uno desarroll
 - [ ] Implementación de microservicios.
 - [ ] Aplicación web para gestión visual.
 
-## 🚀 ¡Empecemos!
-Colabora con nosotros y mejoremos juntos la gestión de flotas de transporte.
+## 📌 Asignación de Tareas
+Miel 🚀
 
----
+🔹 Responsabilidad: Módulo de Gestión de Vehículos
+
+    Implementar la clase abstracta Vehiculo con sus atributos y métodos básicos.
+    Crear las subclases Automovil, Camion y Motocicleta, asegurando el uso de herencia y polimorfismo.
+    Aplicar encapsulación con getters y setters en todas las clases.
+    Implementar la interfaz Mantenimiento y su método realizarMantenimiento().
+    Escribir pruebas unitarias para verificar la creación y comportamiento de los vehículos.
+
+Xavier 🛠️
+
+🔹 Responsabilidad: Módulo de Gestión de Conductores
+
+    Implementar la clase Conductor con los atributos requeridos.
+    Crear métodos para asignar y cambiar un vehículo a un conductor, asegurando validaciones.
+    Integrar este módulo con el Módulo de Vehículos de Miel.
+    Escribir pruebas unitarias para verificar la correcta asignación de conductores a vehículos.
+    Documentar la API de Conductores en caso de futura integración con una base de datos.
+
+📅 Siguiente Paso:
+
+    Miel y Xavier deben coordinar para definir el formato de intercambio de datos entre vehículos y conductores.
+    Subir avances a GitHub en ramas separadas (feature/gestion-vehiculos y feature/gestion-conductores).
+    Revisión en equipo antes de integración final.
+
 🌟 **Repo oficial:** [https://github.com/tu-usuario/sistema-transporte](https://github.com/tu-usuario/sistema-transporte)
